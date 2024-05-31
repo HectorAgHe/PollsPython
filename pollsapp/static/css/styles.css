@@ -8,8 +8,7 @@ body {
     place-items: center;
     justify-content: center; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: radial-gradient(79.43% 251.58% at 23.18% 73.07%, #2d6cc5 0, #0f133a
-    44.41%, #101034 56.43%, #141034 69.58%, #301436 100%, #e2082c 0);
+    background: rgb(2,0,36);
+    background: linear-gradient(343deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     
-
 }

@@ -30,7 +30,7 @@
 
     <script>
         // Obtén el contexto del lienzo (canvas)
-        var ctx = document.getElementById('myPieChart').getContext('2d');
+        var ctx = document.getElementById('myPieChart' ).getContext('2d');
 
         // Crea el gráfico de pastel
         var myPieChart = new Chart(ctx, {
@@ -38,12 +38,11 @@
             data: {
                 labels: ['Rojo', 'Azul', 'Verde', 'Amarillo', 'Naranja'],
                 datasets: [{
-                    label: 'Colores Favoritos',
-                    data: [12, 19, 3, 5, 2], // Datos del gráfico
+                    label: 'numero de votos',
+                    data: [12, 19, 3, 5, ], // Datos del gráfico
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.2)', // Color de fondo de las secciones del pastel
                         'rgba(54, 162, 235, 0.2)',
-                        'rgba(75, 192, 192, 0.2)',
                         'rgba(255, 206, 86, 0.2)',
                         'rgba(255, 159, 64, 0.2)'
                     ],

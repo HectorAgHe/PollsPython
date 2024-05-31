@@ -8,10 +8,9 @@
 <ul>
     <h3>Encuestas</h3>
     {% for q in questions %}
-    <li><a href="{% url 'polls:vote' q.id %}">{{ q.question_text }}</a>
+    <li><a href="{% url 'polls:vote' q.id %}" style="color: aliceblue;">{{ q.question_text }}</a>
     <button>
-        ver Resultados
-        <link rel="stylesheet" href="{% url 'polls:home' %}">
+            <a href="{% url 'polls:results' q.id %}" class="btn btn-secondary">Results</a>
     </button>
     </li>
     {% endfor %}
